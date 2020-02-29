@@ -1,0 +1,75 @@
+.project {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.projectPhotoContainer {
+  width: 40%;
+  height: 90%;
+  border: solid 2px #003599;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectPhoto {
+  width: 100%;
+}
+
+.projectInfoContainer {
+  width: 40%;
+  border: solid 2px #003599;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectTitle {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.projectDescribe {
+  color: black;
+  padding: 20px;
+}
+
+@media (max-width: 1200px) {
+  .projectTitle {
+    font-size: 16px;
+    padding: 10px 10px 0 10px;
+  }
+  .projectDescribe {
+    font-size: 12px;
+  }
+  .projectPhotoContainer {
+    height: 80%;
+    width: 40%;
+  }
+  .project {
+    height: 250px;
+  }
+}
+
+@media (max-width: 365px) {
+  .projectTitle {
+    font-size: 12px;
+    padding: 10px 10px 0 10px;
+  }
+  .projectDescribe {
+    font-size: 10px;
+    padding: 15px;
+  }
+  .projectPhotoContainer {
+    height: 80%;
+    width: 40%;
+  }
+}

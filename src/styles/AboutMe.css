@@ -1,0 +1,190 @@
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 30px;
+  border-bottom: 2px solid #003599;
+  padding-bottom: 10px;
+}
+
+.imageAndInfoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  width: 25%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thecard {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+.thecard:hover {
+  transform: rotateY(180deg);
+}
+
+.myImage {
+  width: 100%;
+  height: 100%;
+  background-image: url("../image/myPhoto.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 90px;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.theback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../image/pikachu.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: rotateY(180deg);
+  border-radius: 90px;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.info {
+  width: 75%;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px #818181c2;
+}
+
+.myStory {
+  color: black;
+}
+
+@media (max-width: 900px) {
+  .imageAndInfoContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .myStory {
+    font-size: 14px;
+  }
+
+  .myImage {
+    width: 100%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .myImage {
+    width: 100%;
+  }
+  .imageContainer {
+    width: 35%;
+  }
+}
+@media (max-width: 1300px) {
+  .myImage {
+    width: 100%;
+  }
+  .imageContainer {
+    width: 40%;
+  }
+}
+@media (max-width: 900px) {
+  .myImage {
+    width: 100%;
+  }
+  .thecard:hover {
+    transform: rotateY(0deg);
+  }
+  .imageContainer {
+    width: 40%;
+  }
+  .theback {
+    width: 0;
+    height: 0;
+  }
+}
+@media (max-width: 800px) {
+  .myImage {
+    width: 100%;
+  }
+  .imageContainer {
+    width: 45%;
+  }
+}
+@media (max-width: 750px) {
+  .myImage {
+    width: 100%;
+  }
+  .imageContainer {
+    width: 50%;
+  }
+}
+@media (max-width: 700px) {
+  .myImage {
+    width: 100%;
+  }
+}
+@media (max-width: 620px) {
+  .myImage {
+    width: 100%;
+  }
+  .imageContainer {
+    width: 60%;
+  }
+}
+@media (max-width: 550px) {
+  .myImage {
+    width: 100%;
+  }
+  .imageContainer {
+    width: 80%;
+  }
+}
+@media (max-width: 450px) {
+  .myImage {
+    width: 100%;
+  }
+  .imageContainer {
+    width: 90%;
+  }
+}
