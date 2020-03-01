@@ -7,14 +7,13 @@
 }
 
 .projectPhotoContainer {
+  background-color: white;
   width: 40%;
   height: 90%;
-  border: solid 2px #003599;
-  border-radius: 50px;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  clip-path: polygon(0 0, 0 100%, 88% 100%, 100% 00);
 }
 
 .projectPhoto {
@@ -23,8 +22,6 @@
 
 .projectInfoContainer {
   width: 40%;
-  border: solid 2px #003599;
-  border-radius: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,32 +41,36 @@
 
 @media (max-width: 1200px) {
   .projectTitle {
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px 10px 0 10px;
   }
   .projectDescribe {
-    font-size: 12px;
+    font-size: 16px;
+    width: 450px;
   }
   .projectPhotoContainer {
-    height: 80%;
-    width: 40%;
+    height: 0%;
+    width: 0%;
   }
   .project {
     height: 250px;
+    display: flex;
+    justify-content: center;
   }
 }
 
 @media (max-width: 365px) {
   .projectTitle {
-    font-size: 12px;
+    font-size: 18px;
     padding: 10px 10px 0 10px;
   }
   .projectDescribe {
-    font-size: 10px;
+    font-size: 14px;
     padding: 15px;
+    width: 250px;
   }
   .projectPhotoContainer {
-    height: 80%;
-    width: 40%;
+    height: 0%;
+    width: 0%;
   }
 }

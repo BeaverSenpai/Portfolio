@@ -29,27 +29,11 @@ class Contact extends React.Component {
         <form className="contactForm" onSubmit={this.submitForm}>
           <input
             className="contactInput"
-            type="text"
-            value={this.state.name}
-            name="name"
-            onChange={this.updateInputValue}
-            placeholder="Imie"
-          ></input>
-          <input
-            className="contactInput"
             type="email"
             value={this.state.email}
             name="email"
             onChange={this.updateInputValue}
             placeholder="Email"
-          ></input>
-          <input
-            className="contactInput"
-            type="text"
-            value={this.state.topic}
-            name="topic"
-            onChange={this.updateInputValue}
-            placeholder="Temat"
           ></input>
           <textarea
             className="message"
@@ -57,7 +41,7 @@ class Contact extends React.Component {
             value={this.state.message}
             name="message"
             onChange={this.updateInputValue}
-            placeholder="Wiadomość"
+            placeholder="Message"
           ></textarea>
           <button>Send</button>
         </form>

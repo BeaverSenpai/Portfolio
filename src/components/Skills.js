@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Skills.css";
-import htmlPhoto from "../image/skillsPhotos/html.png";
-import cssPhoto from "../image/skillsPhotos/css.png";
-import jsPhoto from "../image/skillsPhotos/js.png";
+import htmlPhoto from "../image/skillsPhotos/html1.png";
+import cssPhoto from "../image/skillsPhotos/css1.png";
+import jsPhoto from "../image/skillsPhotos/js1.png";
 import reactPhoto from "../image/skillsPhotos/react.png";
-import rwdPhoto from "../image/skillsPhotos/rwd.png";
+import rwdPhoto from "../image/skillsPhotos/rwd1.png";
 import mysqlPhoto from "../image/skillsPhotos/mysql.png";
 
 const Skills = () => {
@@ -15,25 +15,22 @@ const Skills = () => {
       </div>
       <div className="skills">
         <div className="skill">
-          <img src={htmlPhoto} alt="" style={{ padding: "20px" }}></img>
+          <img src={htmlPhoto} alt=""></img>
         </div>
         <div className="skill">
-          <img src={cssPhoto} style={{ padding: "20px" }} alt=""></img>
+          <img src={cssPhoto} alt=""></img>
         </div>
         <div className="skill">
           <img src={rwdPhoto} alt=""></img>
         </div>
-        <div className="skill" style={{ borderTop: "2px solid white" }}>
+        <div className="skill">
           <img src={jsPhoto} alt=""></img>
         </div>
-        <div className="skill" style={{ borderTop: "2px solid white" }}>
+        <div className="skill">
           <img src={reactPhoto} alt=""></img>
         </div>
-        <div
-          className="skill"
-          style={{ borderTop: "2px solid white", padding: "20px" }}
-        >
-          <img src={mysqlPhoto} alt=""></img>
+        <div className="skill">
+          <img src={mysqlPhoto} style={{ width: "90%" }} alt=""></img>
         </div>
       </div>
     </div>

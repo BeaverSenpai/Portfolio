@@ -1,6 +1,10 @@
 .contactContainer {
   width: 100%;
-  background-color: #030c70;
+  padding: 20px;
+  background-image: url("../image/3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -14,6 +18,7 @@
 }
 
 .contactTitle h2 {
+  color: white;
   font-size: 25px;
 }
 
@@ -35,10 +40,6 @@
   outline: none;
 }
 
-.contactInput {
-  cursor: pointer;
-}
-
 .message {
   margin-top: 20px;
   height: 150px;
@@ -52,10 +53,6 @@
 
 .contactInput:focus {
   background-color: #d6d6d6;
-}
-
-.message:hover {
-  cursor: pointer;
 }
 
 .message:focus {
@@ -73,8 +70,8 @@
 }
 
 .contactForm button:hover {
-  box-shadow: 0px 0px 8px 2px #e604af;
   cursor: pointer;
+  box-shadow: 0px 0px 6px 2px white;
 }
 
 @media (max-width: 1000px) {

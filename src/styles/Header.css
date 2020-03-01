@@ -59,7 +59,7 @@ p {
   left: 50%;
   transform: translate(0%, 0%);
   z-index: -1;
-  transition: all 0.6s ease;
+  transition: all 0.4s ease;
 }
 
 .showSkills:hover {
@@ -74,11 +74,6 @@ p {
 
 .btn:hover::before {
   height: 300%;
-}
-
-@media (max-width: 1200px) {
-  .header-info p {
-  }
 }
 
 @media (max-width: 500px) {

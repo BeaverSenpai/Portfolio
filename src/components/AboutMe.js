@@ -17,7 +17,7 @@ const AboutMe = () => {
         <div className="infoContainer">
           <div className="info">
             <p className="myStory">
-              Nazywam się Young Pikachu, mam 21 lat. Swoją pasję do komputerów i
+              Nazywam się Mikołaj Legutko, mam 21 lat. Swoją pasję do
               programowania odkryłem dawno. Bardzo lubię zajmować się
               programowaniem. W ostatnim czasie ukończyłem kilka szkoleń, a
               teraz chciałbym sam zająć się tworzeniem stron dla nowo poznanych
