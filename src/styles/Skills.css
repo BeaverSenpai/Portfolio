@@ -5,8 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url("../image/backgroundImages/2.jpg");
-  background-position: center;
+  background-color: #f4f4f4;
 }
 
 .skills {
@@ -14,7 +13,7 @@
   flex-direction: row;
   text-align: center;
   justify-content: center;
-  padding: 20px 0 30px 0;
+  padding: 0px 0 30px 0;
 }
 
 .skillsTitle {
@@ -23,6 +22,8 @@
 
 .skillsTitle h2 {
   font-size: 25px;
+  color: black;
+  margin-top: 20px;
 }
 
 .skill {
